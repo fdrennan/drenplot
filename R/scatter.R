@@ -34,9 +34,9 @@ dren_scatter <- function(
 }
 
 
-ggplot(mtcars, aes(x = mpg, y = wt)) +
-  dren_scatter(
-    title = 'MPG v. WT',
-    font = 'mono',
-    font_size = 30
-  )
+# ggplot(mtcars, aes(x = mpg, y = wt)) +
+#   dren_scatter(
+#     title = 'MPG v. WT',
+#     font = 'mono',
+#     font_size = 30
+#   )
