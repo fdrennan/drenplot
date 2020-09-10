@@ -12,6 +12,17 @@ dren_scatter(
   font_size = 16
 )
 }
+\arguments{
+\item{title}{The main title for the plot}
+
+\item{x_title}{The main label for X axis}
+
+\item{y_title}{The main label for Y axis}
+
+\item{font}{The preferred font}
+
+\item{font_size}{The font size}
+}
 \value{
 Returns an example plot which uses the package
 }
