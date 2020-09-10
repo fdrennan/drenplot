@@ -23,7 +23,8 @@ Imports:
     fs,
     usethis,
     readr,
-    rlang
+    rlang,
+    sysfonts
 Remotes:
     github::UrbanInstitute/urbnmapr
 License: MIT + file LICENSE
