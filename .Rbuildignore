@@ -2,3 +2,4 @@
 ^\.Rproj\.user$
 scratch.R
 ^\.travis\.yml$
+^codecov\.yml$

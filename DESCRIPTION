@@ -33,7 +33,8 @@ LazyData: true
 URL: https://github.com/fdrennan/drenplot
 BugReports: https://github.com/fdrennan/drenplot/issues
 Suggests: 
-    testthat
+    testthat,
+    covr
 RoxygenNote: 7.1.1
 Depends: 
     R (>= 2.10)
