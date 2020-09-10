@@ -8,3 +8,4 @@ addons:
     packages:
       - libudunits2-dev
       - libgdal-dev
+      - libgit2-dev
