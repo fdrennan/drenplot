@@ -1,7 +1,27 @@
 # R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
 
 language: R
+
 cache: packages
+
+r_packages:
+  - magrittr
+  - forcats
+  - stringr
+  - lubridate
+  - gridExtra
+  - ggrepel
+  - ggplot2
+  - purrr
+  - dplyr
+  - ggridges
+  - viridis
+  - hrbrthemes
+  - fs
+  - usethis
+  - readr
+  - rlang
+  - sysfonts
 
 addons:
   apt:
