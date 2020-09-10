@@ -15,7 +15,7 @@
 #'     dren_scatter()
 #' }
 #' @return Returns an example plot which uses the package
-#' @export build_example
+#' @export dren_scatter
 dren_scatter <- function(
   title = 'My Scatter',
   x_title = 'MPG',
@@ -23,7 +23,10 @@ dren_scatter <- function(
   font = 'serif',
   font_size = 16
 ) {
-  print(font_families())
+  message('Fonts to try')
+  walk(font_families(), function(font) {
+    message(glue("font ='{font}'\n"))
+  })
   list(geom_point(),
        ggtitle(title),
        xlab(x_title),
@@ -39,9 +42,4 @@ dren_scatter <- function(
 }
 
 
-# ggplot(mtcars, aes(x = mpg, y = wt)) +
-#   dren_scatter(
-#     title = 'MPG v. WT',
-#     font = 'mono',
-#     font_size = 30
-#   )
+
