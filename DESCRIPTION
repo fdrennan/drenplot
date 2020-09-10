@@ -15,7 +15,6 @@ Imports:
     ggrepel,
     ggplot2,
     urbnmapr,
-    purrr,
     dplyr,
     ggridges,
     viridis,
@@ -24,7 +23,9 @@ Imports:
     usethis,
     readr,
     rlang,
-    sysfonts
+    sysfonts,
+    glue,
+    purrr
 Remotes:
     github::UrbanInstitute/urbnmapr
 License: MIT + file LICENSE
