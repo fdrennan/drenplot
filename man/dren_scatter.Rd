@@ -4,7 +4,13 @@
 \alias{dren_scatter}
 \title{Generate a scatter plot}
 \usage{
-dren_scatter()
+dren_scatter(
+  title = "My Scatter",
+  x_title = "MPG",
+  y_title = "WT",
+  font = "serif",
+  font_size = 16
+)
 }
 \value{
 Returns an example plot which uses the package
