@@ -4,6 +4,8 @@
 #' `dren_scatter()` Generate an example of what is in the package
 #' @importFrom ggplot2 geom_point xlab ylab
 #' @importFrom sysfonts font_families
+#' @importFrom purrr walk
+#' @importFrom glue glue
 #' @param title The main title for the plot
 #' @param x_title The main label for X axis
 #' @param y_title The main label for Y axis
