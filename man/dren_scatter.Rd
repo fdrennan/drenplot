@@ -9,7 +9,11 @@ dren_scatter(
   x_title = "MPG",
   y_title = "WT",
   font = "serif",
-  font_size = 16
+  font_size = 16,
+  point_size = 1,
+  add_lm = TRUE,
+  lm_colour = "black",
+  lm_size = 2
 )
 }
 \arguments{
@@ -22,6 +26,14 @@ dren_scatter(
 \item{font}{The preferred font}
 
 \item{font_size}{The font size}
+
+\item{point_size}{The point size}
+
+\item{add_lm}{Add a best fit line}
+
+\item{lm_colour}{Color of regression line}
+
+\item{lm_size}{Size of regression line}
 }
 \value{
 Returns an example plot which uses the package

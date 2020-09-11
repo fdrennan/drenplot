@@ -9,3 +9,7 @@
 #' unemployment
 #'
 "unemployment"
+
+#' moons_dataset
+#'
+"moons_dataset"
