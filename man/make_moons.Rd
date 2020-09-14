@@ -2,15 +2,24 @@
 % Please edit documentation in R/make_moons.R
 \name{make_moons}
 \alias{make_moons}
-\title{Generate a dataset}
+\title{Generate a dataset
+‘n_samples’ ‘shuffle’ ‘noise’}
 \usage{
 make_moons(n_samples = 20000L, shuffle = TRUE, noise = 0.55)
+}
+\arguments{
+\item{n_samples}{The Number of Moon Samples}
+
+\item{shuffle}{Boolean, TRUE FALSE}
+
+\item{noise}{noise Numeric, default to .55}
 }
 \value{
 Returns a moon datast
 }
 \description{
 Generate a dataset
+‘n_samples’ ‘shuffle’ ‘noise’
 }
 \examples{
 if (interactive()) {

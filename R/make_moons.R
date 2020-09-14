@@ -1,6 +1,9 @@
 
 #' Generate a dataset
-#'
+#' ‘n_samples’ ‘shuffle’ ‘noise’
+#' @param n_samples The Number of Moon Samples
+#' @param shuffle Boolean, TRUE FALSE
+#' @param noise noise Numeric, default to .55
 #' @importFrom reticulate import
 #' @importFrom tibble tibble
 #' @importFrom forcats as_factor

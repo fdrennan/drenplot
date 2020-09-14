@@ -1,3 +1,13 @@
+#'  Generate the main theme
+#' @description
+#' `dren_theme()` Generate the main theme
+#' @examples
+#' if (interactive()) {
+#'     mtcars %>%
+#'      ggplot(aes(x = mpg, y = wt)) +
+#'      geom_point() +
+#'      dren_theme()
+#' }
 #' @importFrom  ggplot2 theme_minimal element_text element_rect margin element_line
 #' @export dren_theme
 dren_theme <- function() {
