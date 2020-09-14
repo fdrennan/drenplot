@@ -5,7 +5,7 @@
 \alias{moons_dataset}
 \title{moons_dataset}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 5000 rows and 3 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 20000 rows and 3 columns.
 }
 \usage{
 moons_dataset

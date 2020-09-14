@@ -13,3 +13,7 @@
 #' moons_dataset
 #'
 "moons_dataset"
+
+#' random_moons
+#'
+"random_moons"

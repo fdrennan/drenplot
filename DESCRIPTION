@@ -25,7 +25,9 @@ Imports:
     rlang,
     sysfonts,
     glue,
-    purrr
+    purrr,
+    tibble,
+    reticulate
 Remotes:
     github::UrbanInstitute/urbnmapr
 License: MIT + file LICENSE
